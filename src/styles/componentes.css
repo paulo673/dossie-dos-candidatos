@@ -78,6 +78,20 @@
   background: #241a00;
   animation: piscar 1.6s ease-in-out infinite;
 }
+.topo-repo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 999px;
+  color: var(--ink-2);
+}
+.topo-repo:hover {
+  color: var(--ink);
+  background: var(--bg-3);
+}
 @keyframes piscar {
   50% {
     opacity: 0.2;
