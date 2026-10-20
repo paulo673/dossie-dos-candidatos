@@ -4,6 +4,9 @@ import './styles/global.css'
 import './styles/componentes.css'
 import './styles/paginas.css'
 import App from './App.jsx'
+import { iniciarAnalytics } from './lib/analytics.js'
+
+iniciarAnalytics()
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

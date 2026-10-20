@@ -12,6 +12,7 @@
   "dependencies": {
     "lucide-react": "^1.60.0",
     "motion": "^14.4.0",
+    "posthog-js": "^1.438.13",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   },
