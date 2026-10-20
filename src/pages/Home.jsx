@@ -1,6 +1,5 @@
 import { useMemo } from 'react'
 import { ArrowRight, Scale, Landmark, Wallet, Vote, MapPin, Briefcase, Users, History } from 'lucide-react'
-import Urna from '../components/Urna.jsx'
 import { BarraPrimeiroTurno, GraficoLinhas, GraficoPesquisas } from '../components/Graficos.jsx'
 import { Fontes } from '../components/ui.jsx'
 import { STATUS } from '../lib/constantes.js'
@@ -141,10 +140,6 @@ function Hero() {
               </a>
             ))}
           </div>
-        </div>
-        <div className="hero-urna">
-          <Urna onBranco={() => document.getElementById('frente-a-frente')?.scrollIntoView({ behavior: 'smooth' })} />
-          <p className="hero-urna-legenda texto-3">Digite o número na urna para abrir o dossiê. Branco abre a comparação.</p>
         </div>
       </div>
     </section>

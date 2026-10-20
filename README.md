@@ -30,7 +30,7 @@ A configuração fica em `src/lib/analytics.js`: pageview a cada troca de rota (
 | `docs/` | Dossiês originais em Markdown (o Vite os publica junto com o site) |
 | `src/data/lula.js`, `src/data/flavio.js` | Dados estruturados extraídos dos dossiês (formato em `src/data/SCHEMA.md`) |
 | `src/data/eleicao.js` | 1º turno, pesquisas e apoios do 2º turno |
-| `src/pages/` | Início (urna + comparação), página de cada candidato, linha do tempo, fontes e método |
-| `src/components/` | Urna, gráficos, selos de fase processual, links de fonte, layout |
+| `src/pages/` | Início (placar, comparação e gráficos), página de cada candidato, linha do tempo, fontes e método |
+| `src/components/` | Gráficos, selos de fase processual, links de fonte, layout |
 
 Para atualizar um dado, edite o arquivo em `src/data/` e mantenha o array `fontes` com as URLs.

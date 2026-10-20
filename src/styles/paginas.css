@@ -26,10 +26,6 @@
   .hero {
     padding: 64px 0 80px;
   }
-  .hero-in {
-    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
-    gap: 56px;
-  }
 }
 .hero-texto {
   display: grid;
@@ -107,15 +103,6 @@
 .botao-cand small {
   font-size: 0.78rem;
   opacity: 0.85;
-}
-.hero-urna {
-  display: grid;
-  gap: 10px;
-  justify-items: center;
-}
-.hero-urna-legenda {
-  font-size: 0.82rem;
-  text-align: center;
 }
 
 /* ================= Home: placar ================= */
