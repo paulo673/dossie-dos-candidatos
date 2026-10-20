@@ -1,0 +1,1147 @@
+{
+ "fases": [
+  {
+   "id": "republica_velha",
+   "nome": "República Velha",
+   "inicio": "1889-11-15",
+   "fim": "1930-10-24",
+   "resumo": "Economia agroexportadora centrada no café, com o Estado atuando sobretudo para defender a renda cafeeira e o câmbio. Após a euforia emissionista e especulativa do Encilhamento (1890–91), os governos oscilaram entre ortodoxia monetária e padrão-ouro (Funding Loans de 1898 e 1914, saneamento de Murtinho, Caixa de Conversão e Caixa de Estabilização) e políticas de valorização do café (Convênio de Taubaté, defesa permanente). A dependência de empréstimos externos e de um único produto deixou o país vulnerável à Grande Depressão de 1929.",
+   "palavras_chave": [
+    "café com leite",
+    "valorização do café",
+    "padrão-ouro",
+    "Funding Loan",
+    "Encilhamento"
+   ],
+   "subfases": [
+    {
+     "id": "espada",
+     "nome": "República da Espada",
+     "inicio": "1889-11-15",
+     "fim": "1894-11-15"
+    },
+    {
+     "id": "oligarquica",
+     "nome": "República Oligárquica",
+     "inicio": "1894-11-15",
+     "fim": "1930-10-24"
+    }
+   ]
+  },
+  {
+   "id": "era_vargas",
+   "nome": "Era Vargas",
+   "inicio": "1930-10-24",
+   "fim": "1945-10-29",
+   "resumo": "A crise de 1929 e a Revolução de 1930 deslocaram o eixo da economia do setor exportador para o mercado interno. O governo sustentou a renda do café (compra e queima de estoques), centralizou a política econômica e criou um aparato regulatório (DNC, CNP, DASP, SUMOC). A partir do Estado Novo o Estado passou a investir diretamente na indústria de base (CSN, Vale do Rio Doce) e a legislação trabalhista foi consolidada na CLT, inaugurando o nacional-desenvolvimentismo.",
+   "palavras_chave": [
+    "industrialização por substituição de importações",
+    "intervencionismo",
+    "CLT",
+    "nacional-desenvolvimentismo",
+    "queima do café"
+   ],
+   "subfases": [
+    {
+     "id": "provisorio",
+     "nome": "Governo Provisório",
+     "inicio": "1930-10-24",
+     "fim": "1934-07-16"
+    },
+    {
+     "id": "constitucional",
+     "nome": "Governo Constitucional",
+     "inicio": "1934-07-16",
+     "fim": "1937-11-10"
+    },
+    {
+     "id": "estado_novo",
+     "nome": "Estado Novo",
+     "inicio": "1937-11-10",
+     "fim": "1945-10-29"
+    }
+   ]
+  },
+  {
+   "id": "populista",
+   "nome": "República Populista",
+   "inicio": "1945-10-29",
+   "fim": "1964-04-01",
+   "resumo": "Período de democracia representativa em que a industrialização por substituição de importações se aprofundou, com bancos e empresas estatais (BNDE, Petrobras, Eletrobras), controles cambiais seletivos e atração de capital estrangeiro (Instrução 113). O Plano de Metas de JK levou a forte crescimento e à construção de Brasília, mas deixou inflação alta e desequilíbrio externo. No início dos anos 1960 a aceleração inflacionária, a estagnação e o conflito distributivo (reformas de base, Plano Trienal) desembocaram no golpe de 1964.",
+   "palavras_chave": [
+    "desenvolvimentismo",
+    "Plano de Metas",
+    "substituição de importações",
+    "inflação",
+    "reformas de base"
+   ],
+   "subfases": []
+  },
+  {
+   "id": "ditadura",
+   "nome": "Ditadura Militar",
+   "inicio": "1964-04-01",
+   "fim": "1985-03-15",
+   "resumo": "O regime militar combinou ajuste ortodoxo inicial (PAEG, arrocho salarial) com reformas institucionais profundas: Banco Central, correção monetária, FGTS, reforma tributária e mercado de capitais. Seguiu-se o 'milagre econômico' (1968–73), de crescimento acelerado com concentração de renda e endividamento externo. Após o choque do petróleo, o II PND manteve o crescimento com dívida externa, até que os juros altos de 1979–82 provocaram a crise da dívida, o recurso ao FMI e a estagflação do início dos anos 1980.",
+   "palavras_chave": [
+    "milagre econômico",
+    "PAEG",
+    "correção monetária",
+    "II PND",
+    "crise da dívida"
+   ],
+   "subfases": []
+  },
+  {
+   "id": "nova_republica",
+   "nome": "Nova República",
+   "inicio": "1985-03-15",
+   "fim": null,
+   "resumo": "Após uma década de planos heterodoxos fracassados contra a alta inflação, o Plano Real (1994) estabilizou a moeda e, depois da crise cambial de 1999, consolidou-se o tripé macroeconômico (metas de inflação, câmbio flutuante e metas fiscais). Os governos do PT somaram ao tripé a expansão de transferências de renda, valorização do salário mínimo e crédito, até a guinada da 'nova matriz' e a recessão de 2014–16. Desde então alternaram-se agendas de ajuste e reformas liberais (teto de gastos, reformas trabalhista e previdenciária, autonomia do BC) e, a partir de 2023, um novo arcabouço fiscal com reforma tributária do consumo e da renda.",
+   "palavras_chave": [
+    "hiperinflação",
+    "Plano Real",
+    "tripé macroeconômico",
+    "transferência de renda",
+    "reformas fiscais"
+   ],
+   "subfases": [
+    {
+     "id": "transicao",
+     "nome": "Transição e planos heterodoxos",
+     "inicio": "1985-03-15",
+     "fim": "1995-01-01"
+    },
+    {
+     "id": "real_fhc",
+     "nome": "Real e governos FHC",
+     "inicio": "1995-01-01",
+     "fim": "2003-01-01"
+    },
+    {
+     "id": "pt",
+     "nome": "Governos do PT (Lula 1–2 e Dilma)",
+     "inicio": "2003-01-01",
+     "fim": "2016-05-12"
+    },
+    {
+     "id": "temer_bolsonaro",
+     "nome": "Temer e Bolsonaro",
+     "inicio": "2016-05-12",
+     "fim": "2023-01-01"
+    },
+    {
+     "id": "lula3",
+     "nome": "Lula 3",
+     "inicio": "2023-01-01",
+     "fim": null
+    }
+   ]
+  }
+ ],
+ "presidentes": [
+  {
+   "nome": "Deodoro da Fonseca",
+   "inicio": "1889-11-15",
+   "fim": "1891-11-23",
+   "chegada": "Golpe militar (Proclamação da República); chefe do Governo Provisório e depois eleito indiretamente pelo Congresso Constituinte em 25/02/1891; renunciou",
+   "partido": null,
+   "fase": "republica_velha",
+   "subfase": "espada",
+   "ministros_fazenda": [
+    {
+     "nome": "Rui Barbosa",
+     "inicio": "1889-11-15",
+     "fim": "1891-01-21"
+    },
+    {
+     "nome": "Tristão de Alencar Araripe",
+     "inicio": "1891-01-22",
+     "fim": "1891-07-04"
+    },
+    {
+     "nome": "Henrique Pereira de Lucena (barão de Lucena)",
+     "inicio": "1891-07-04",
+     "fim": "1891-11-23"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Deodoro_da_Fonseca",
+   "nomeCurto": "Deodoro"
+  },
+  {
+   "nome": "Floriano Peixoto",
+   "inicio": "1891-11-23",
+   "fim": "1894-11-15",
+   "chegada": "Vice que assumiu após a renúncia de Deodoro",
+   "partido": null,
+   "fase": "republica_velha",
+   "subfase": "espada",
+   "ministros_fazenda": [
+    {
+     "nome": "Rodrigues Alves",
+     "inicio": "1891-11-26",
+     "fim": "1892-08-31"
+    },
+    {
+     "nome": "Serzedelo Correia",
+     "inicio": "1892-08-31",
+     "fim": "1893-04-30"
+    },
+    {
+     "nome": "Felisbelo Freire",
+     "inicio": "1893-04-30",
+     "fim": "1894-08-18"
+    },
+    {
+     "nome": "Alexandre Cassiano do Nascimento (interino)",
+     "inicio": "1894-08-18",
+     "fim": "1894-11-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Floriano_Peixoto",
+   "nomeCurto": "Floriano"
+  },
+  {
+   "nome": "Prudente de Morais",
+   "inicio": "1894-11-15",
+   "fim": "1898-11-15",
+   "chegada": "Eleição direta (1894)",
+   "partido": "PRF (Partido Republicano Federal)",
+   "fase": "republica_velha",
+   "subfase": "oligarquica",
+   "ministros_fazenda": [
+    {
+     "nome": "Rodrigues Alves",
+     "inicio": "1894-11-15",
+     "fim": "1896-11-20"
+    },
+    {
+     "nome": "Bernardino de Campos",
+     "inicio": "1896-11-20",
+     "fim": "1898-11-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Prudente_de_Morais",
+   "observacao": "O vice Manuel Vitorino exerceu a presidência durante licença médica de Prudente (nov/1896–mar/1897).",
+   "nomeCurto": "Prudente de Morais"
+  },
+  {
+   "nome": "Campos Sales",
+   "inicio": "1898-11-15",
+   "fim": "1902-11-15",
+   "chegada": "Eleição direta (1898)",
+   "partido": "PRP",
+   "fase": "republica_velha",
+   "subfase": "oligarquica",
+   "ministros_fazenda": [
+    {
+     "nome": "Joaquim Murtinho",
+     "inicio": "1898-11-15",
+     "fim": "1902-09-02"
+    },
+    {
+     "nome": "Sabino Barroso",
+     "inicio": "1902-09-02",
+     "fim": "1902-11-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Campos_Sales",
+   "nomeCurto": "Campos Sales"
+  },
+  {
+   "nome": "Rodrigues Alves",
+   "inicio": "1902-11-15",
+   "fim": "1906-11-15",
+   "chegada": "Eleição direta (1902)",
+   "partido": "PRP",
+   "fase": "republica_velha",
+   "subfase": "oligarquica",
+   "ministros_fazenda": [
+    {
+     "nome": "Leopoldo de Bulhões",
+     "inicio": "1902-11-15",
+     "fim": "1906-11-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Rodrigues_Alves",
+   "nomeCurto": "Rodrigues Alves"
+  },
+  {
+   "nome": "Afonso Pena",
+   "inicio": "1906-11-15",
+   "fim": "1909-06-14",
+   "chegada": "Eleição direta (1906); morreu no cargo",
+   "partido": "PRM",
+   "fase": "republica_velha",
+   "subfase": "oligarquica",
+   "ministros_fazenda": [
+    {
+     "nome": "David Campista",
+     "inicio": "1906-11-15",
+     "fim": "1909-06-14"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Afonso_Pena",
+   "nomeCurto": "Afonso Pena"
+  },
+  {
+   "nome": "Nilo Peçanha",
+   "inicio": "1909-06-14",
+   "fim": "1910-11-15",
+   "chegada": "Vice que assumiu após a morte de Afonso Pena",
+   "partido": "PRF (Partido Republicano Fluminense)",
+   "fase": "republica_velha",
+   "subfase": "oligarquica",
+   "ministros_fazenda": [
+    {
+     "nome": "Leopoldo de Bulhões",
+     "inicio": "1909-06-14",
+     "fim": "1910-11-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Nilo_Peçanha",
+   "nomeCurto": "Nilo Peçanha"
+  },
+  {
+   "nome": "Hermes da Fonseca",
+   "inicio": "1910-11-15",
+   "fim": "1914-11-15",
+   "chegada": "Eleição direta (1910)",
+   "partido": "PRC",
+   "fase": "republica_velha",
+   "subfase": "oligarquica",
+   "ministros_fazenda": [
+    {
+     "nome": "Francisco Antônio de Sales",
+     "inicio": "1910-11-15",
+     "fim": "1913-05-09"
+    },
+    {
+     "nome": "Rivadávia Correia",
+     "inicio": "1913-05-09",
+     "fim": "1914-11-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Hermes_da_Fonseca",
+   "nomeCurto": "Hermes da Fonseca"
+  },
+  {
+   "nome": "Venceslau Brás",
+   "inicio": "1914-11-15",
+   "fim": "1918-11-15",
+   "chegada": "Eleição direta (1914)",
+   "partido": "PRM",
+   "fase": "republica_velha",
+   "subfase": "oligarquica",
+   "ministros_fazenda": [
+    {
+     "nome": "Sabino Barroso",
+     "inicio": "1914-11-15",
+     "fim": "1915-05-31"
+    },
+    {
+     "nome": "Pandiá Calógeras",
+     "inicio": "1915-07-08",
+     "fim": "1917-09-06"
+    },
+    {
+     "nome": "Antônio Carlos Ribeiro de Andrada",
+     "inicio": "1917-09-06",
+     "fim": "1918-11-01"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Venceslau_Brás",
+   "nomeCurto": "Venceslau Brás"
+  },
+  {
+   "nome": "Delfim Moreira",
+   "inicio": "1918-11-15",
+   "fim": "1919-07-28",
+   "chegada": "Vice-presidente eleito que assumiu porque o presidente eleito, Rodrigues Alves, estava doente (morreu em 16/01/1919); governou até nova eleição",
+   "partido": "PRM",
+   "fase": "republica_velha",
+   "subfase": "oligarquica",
+   "ministros_fazenda": [
+    {
+     "nome": "Amaro Cavalcanti",
+     "inicio": "1918-11-15",
+     "fim": "1919-01-17"
+    },
+    {
+     "nome": "João Ribeiro de Oliveira e Sousa",
+     "inicio": "1919-01-17",
+     "fim": "1919-07-27"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Delfim_Moreira",
+   "nomeCurto": "Delfim Moreira"
+  },
+  {
+   "nome": "Epitácio Pessoa",
+   "inicio": "1919-07-28",
+   "fim": "1922-11-15",
+   "chegada": "Eleição direta extraordinária (1919)",
+   "partido": "PRM",
+   "fase": "republica_velha",
+   "subfase": "oligarquica",
+   "ministros_fazenda": [
+    {
+     "nome": "Homero Batista",
+     "inicio": "1919-07-27",
+     "fim": "1922-11-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Epitácio_Pessoa",
+   "nomeCurto": "Epitácio Pessoa"
+  },
+  {
+   "nome": "Artur Bernardes",
+   "inicio": "1922-11-15",
+   "fim": "1926-11-15",
+   "chegada": "Eleição direta (1922)",
+   "partido": "PRM",
+   "fase": "republica_velha",
+   "subfase": "oligarquica",
+   "ministros_fazenda": [
+    {
+     "nome": "Rafael de Abreu Sampaio Vidal",
+     "inicio": "1922-11-15",
+     "fim": "1925-01-02"
+    },
+    {
+     "nome": "Aníbal Freire da Fonseca",
+     "inicio": "1925-01-02",
+     "fim": "1926-11-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Artur_Bernardes",
+   "nomeCurto": "Artur Bernardes"
+  },
+  {
+   "nome": "Washington Luís",
+   "inicio": "1926-11-15",
+   "fim": "1930-10-24",
+   "chegada": "Eleição direta (1926); deposto pela Revolução de 1930",
+   "partido": "PRP",
+   "fase": "republica_velha",
+   "subfase": "oligarquica",
+   "ministros_fazenda": [
+    {
+     "nome": "Getúlio Vargas",
+     "inicio": "1926-11-15",
+     "fim": "1927-12-17"
+    },
+    {
+     "nome": "Francisco Chaves de Oliveira Botelho",
+     "inicio": "1927-12-17",
+     "fim": "1930-10-24"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Washington_Luís",
+   "observacao": "Júlio Prestes (PRP), eleito em março de 1930, foi impedido de tomar posse.",
+   "nomeCurto": "Washington Luís"
+  },
+  {
+   "nome": "Junta Governativa Provisória de 1930 (Tasso Fragoso, Mena Barreto, Isaías de Noronha)",
+   "inicio": "1930-10-24",
+   "fim": "1930-11-03",
+   "chegada": "Golpe militar (deposição de Washington Luís); transmitiu o poder a Vargas",
+   "partido": null,
+   "fase": "era_vargas",
+   "subfase": "provisorio",
+   "ministros_fazenda": [
+    {
+     "nome": "Agenor Lafayette de Roure",
+     "inicio": "1930-10-25",
+     "fim": "1930-11-04"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Junta_Governativa_Provisória_de_1930",
+   "nomeCurto": "Junta de 1930"
+  },
+  {
+   "nome": "Getúlio Vargas (Governo Provisório)",
+   "inicio": "1930-11-03",
+   "fim": "1934-07-20",
+   "chegada": "Revolução de 1930 (chefe do Governo Provisório)",
+   "partido": null,
+   "fase": "era_vargas",
+   "subfase": "provisorio",
+   "ministros_fazenda": [
+    {
+     "nome": "José Maria Whitaker",
+     "inicio": "1930-11-04",
+     "fim": "1931-11-16"
+    },
+    {
+     "nome": "Osvaldo Aranha",
+     "inicio": "1931-11-16",
+     "fim": "1934-07-24"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Getúlio_Vargas",
+   "nomeCurto": "Vargas"
+  },
+  {
+   "nome": "Getúlio Vargas (Governo Constitucional)",
+   "inicio": "1934-07-20",
+   "fim": "1937-11-10",
+   "chegada": "Eleição indireta pela Assembleia Constituinte (17/07/1934)",
+   "partido": null,
+   "fase": "era_vargas",
+   "subfase": "constitucional",
+   "ministros_fazenda": [
+    {
+     "nome": "Osvaldo Aranha",
+     "inicio": "1931-11-16",
+     "fim": "1934-07-24"
+    },
+    {
+     "nome": "Artur de Sousa Costa",
+     "inicio": "1934-07-24",
+     "fim": "1945-10-29"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Getúlio_Vargas",
+   "nomeCurto": "Vargas"
+  },
+  {
+   "nome": "Getúlio Vargas (Estado Novo)",
+   "inicio": "1937-11-10",
+   "fim": "1945-10-29",
+   "chegada": "Autogolpe (Estado Novo); deposto pelos militares",
+   "partido": null,
+   "fase": "era_vargas",
+   "subfase": "estado_novo",
+   "ministros_fazenda": [
+    {
+     "nome": "Artur de Sousa Costa",
+     "inicio": "1934-07-24",
+     "fim": "1945-10-29"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Getúlio_Vargas",
+   "nomeCurto": "Vargas"
+  },
+  {
+   "nome": "José Linhares",
+   "inicio": "1945-10-30",
+   "fim": "1946-01-31",
+   "chegada": "Presidente do STF, convocado pelos militares após a deposição de Vargas",
+   "partido": null,
+   "fase": "populista",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "José Pires do Rio",
+     "inicio": "1945-10-29",
+     "fim": "1946-02-01"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/José_Linhares",
+   "nomeCurto": "Linhares"
+  },
+  {
+   "nome": "Eurico Gaspar Dutra",
+   "inicio": "1946-01-31",
+   "fim": "1951-01-31",
+   "chegada": "Eleição direta (1945)",
+   "partido": "PSD",
+   "fase": "populista",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "Gastão Vidigal",
+     "inicio": "1946-02-01",
+     "fim": "1946-10-15"
+    },
+    {
+     "nome": "Pedro Luís Correia e Castro",
+     "inicio": "1946-10-21",
+     "fim": "1949-06-10"
+    },
+    {
+     "nome": "Manuel Guilherme da Silveira Filho",
+     "inicio": "1949-06-10",
+     "fim": "1951-01-31"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Eurico_Gaspar_Dutra",
+   "nomeCurto": "Dutra"
+  },
+  {
+   "nome": "Getúlio Vargas",
+   "inicio": "1951-01-31",
+   "fim": "1954-08-24",
+   "chegada": "Eleição direta (1950); suicidou-se no cargo",
+   "partido": "PTB",
+   "fase": "populista",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "Horácio Lafer",
+     "inicio": "1951-02-01",
+     "fim": "1953-06-15"
+    },
+    {
+     "nome": "Osvaldo Aranha",
+     "inicio": "1953-06-16",
+     "fim": "1954-08-24"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Getúlio_Vargas",
+   "nomeCurto": "Vargas"
+  },
+  {
+   "nome": "Café Filho",
+   "inicio": "1954-08-24",
+   "fim": "1955-11-08",
+   "chegada": "Vice que assumiu após a morte de Vargas; afastou-se por motivo de saúde",
+   "partido": "PSP",
+   "fase": "populista",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "Eugênio Gudin",
+     "inicio": "1954-08-25",
+     "fim": "1955-04-12"
+    },
+    {
+     "nome": "José Maria Whitaker",
+     "inicio": "1955-04-13",
+     "fim": "1955-10-10"
+    },
+    {
+     "nome": "Mário Leopoldo Pereira da Câmara",
+     "inicio": "1955-10-11",
+     "fim": "1955-11-08"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Café_Filho",
+   "nomeCurto": "Café Filho"
+  },
+  {
+   "nome": "Carlos Luz",
+   "inicio": "1955-11-08",
+   "fim": "1955-11-11",
+   "chegada": "Interino (presidente da Câmara); deposto pelo 'contragolpe preventivo' do general Lott",
+   "partido": "PSD",
+   "fase": "populista",
+   "subfase": null,
+   "ministros_fazenda": [],
+   "fonte": "https://pt.wikipedia.org/wiki/Carlos_Luz",
+   "nomeCurto": "Carlos Luz"
+  },
+  {
+   "nome": "Nereu Ramos",
+   "inicio": "1955-11-11",
+   "fim": "1956-01-31",
+   "chegada": "Interino (vice-presidente do Senado), empossado pelo Congresso após o movimento de 11 de novembro",
+   "partido": "PSD",
+   "fase": "populista",
+   "subfase": null,
+   "ministros_fazenda": [],
+   "fonte": "https://pt.wikipedia.org/wiki/Nereu_Ramos",
+   "nomeCurto": "Nereu Ramos"
+  },
+  {
+   "nome": "Juscelino Kubitschek",
+   "inicio": "1956-01-31",
+   "fim": "1961-01-31",
+   "chegada": "Eleição direta (1955)",
+   "partido": "PSD",
+   "fase": "populista",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "José Maria Alkmin",
+     "inicio": "1956-02-01",
+     "fim": "1958-06-24"
+    },
+    {
+     "nome": "Lucas Lopes",
+     "inicio": "1958-06-25",
+     "fim": "1959-06-03"
+    },
+    {
+     "nome": "Sebastião Paes de Almeida",
+     "inicio": "1959-06-04",
+     "fim": "1961-01-31"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Juscelino_Kubitschek",
+   "nomeCurto": "JK"
+  },
+  {
+   "nome": "Jânio Quadros",
+   "inicio": "1961-01-31",
+   "fim": "1961-08-25",
+   "chegada": "Eleição direta (1960); renunciou",
+   "partido": "PTN (apoio da UDN)",
+   "fase": "populista",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "Clemente Mariani",
+     "inicio": "1961-02-01",
+     "fim": "1961-09-07"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Jânio_Quadros",
+   "nomeCurto": "Jânio"
+  },
+  {
+   "nome": "Ranieri Mazzilli",
+   "inicio": "1961-08-25",
+   "fim": "1961-09-07",
+   "chegada": "Interino (presidente da Câmara) após a renúncia de Jânio",
+   "partido": "PSD",
+   "fase": "populista",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "Clemente Mariani",
+     "inicio": "1961-02-01",
+     "fim": "1961-09-07"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Ranieri_Mazzilli",
+   "nomeCurto": "Mazzilli"
+  },
+  {
+   "nome": "João Goulart",
+   "inicio": "1961-09-07",
+   "fim": "1964-04-02",
+   "chegada": "Vice que assumiu após a renúncia de Jânio, sob parlamentarismo (até jan/1963); deposto pelo golpe de 1964",
+   "partido": "PTB",
+   "fase": "populista",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "Walther Moreira Salles",
+     "inicio": "1961-09-08",
+     "fim": "1962-09-14"
+    },
+    {
+     "nome": "Miguel Calmon",
+     "inicio": "1962-09-18",
+     "fim": "1963-01-22"
+    },
+    {
+     "nome": "San Tiago Dantas",
+     "inicio": "1963-01-23",
+     "fim": "1963-06-20"
+    },
+    {
+     "nome": "Carvalho Pinto",
+     "inicio": "1963-06-21",
+     "fim": "1963-12-19"
+    },
+    {
+     "nome": "Ney Galvão",
+     "inicio": "1963-12-20",
+     "fim": "1964-04-03"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/João_Goulart",
+   "observacao": "Celso Furtado foi ministro extraordinário do Planejamento (1962–63) e autor do Plano Trienal.",
+   "nomeCurto": "Jango"
+  },
+  {
+   "nome": "Ranieri Mazzilli",
+   "inicio": "1964-04-02",
+   "fim": "1964-04-15",
+   "chegada": "Interino (presidente da Câmara) após o Congresso declarar vaga a presidência",
+   "partido": "PSD",
+   "fase": "ditadura",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "Otávio Gouveia de Bulhões",
+     "inicio": "1964-04-04",
+     "fim": "1964-04-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Ranieri_Mazzilli",
+   "nomeCurto": "Mazzilli"
+  },
+  {
+   "nome": "Humberto de Alencar Castelo Branco",
+   "inicio": "1964-04-15",
+   "fim": "1967-03-15",
+   "chegada": "Eleição indireta pelo Congresso após o golpe de 1964",
+   "partido": "Sem partido (ARENA a partir de 1966)",
+   "fase": "ditadura",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "Otávio Gouveia de Bulhões",
+     "inicio": "1964-04-15",
+     "fim": "1967-03-15"
+    },
+    {
+     "nome": "Roberto Campos (Planejamento)",
+     "inicio": "1964-04-15",
+     "fim": "1967-03-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Castelo_Branco",
+   "nomeCurto": "Castelo Branco"
+  },
+  {
+   "nome": "Artur da Costa e Silva",
+   "inicio": "1967-03-15",
+   "fim": "1969-08-31",
+   "chegada": "Eleição indireta pelo Congresso; afastado por doença",
+   "partido": "ARENA",
+   "fase": "ditadura",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "Antônio Delfim Netto",
+     "inicio": "1967-03-15",
+     "fim": "1974-03-15"
+    },
+    {
+     "nome": "Hélio Beltrão (Planejamento)",
+     "inicio": "1967-03-15",
+     "fim": "1969-10-30"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Costa_e_Silva",
+   "nomeCurto": "Costa e Silva"
+  },
+  {
+   "nome": "Junta Governativa Provisória de 1969 (Aurélio de Lira Tavares, Augusto Rademaker, Márcio de Sousa Melo)",
+   "inicio": "1969-08-31",
+   "fim": "1969-10-30",
+   "chegada": "Golpe militar: os ministros militares impediram a posse do vice Pedro Aleixo",
+   "partido": null,
+   "fase": "ditadura",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "Antônio Delfim Netto",
+     "inicio": "1967-03-15",
+     "fim": "1974-03-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Junta_Governativa_Provisória_de_1969",
+   "nomeCurto": "Junta de 1969"
+  },
+  {
+   "nome": "Emílio Garrastazu Médici",
+   "inicio": "1969-10-30",
+   "fim": "1974-03-15",
+   "chegada": "Eleição indireta pelo Congresso",
+   "partido": "ARENA",
+   "fase": "ditadura",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "Antônio Delfim Netto",
+     "inicio": "1967-03-15",
+     "fim": "1974-03-15"
+    },
+    {
+     "nome": "João Paulo dos Reis Velloso (Planejamento)",
+     "inicio": "1969-10-30",
+     "fim": "1979-03-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Emílio_Garrastazu_Médici",
+   "nomeCurto": "Médici"
+  },
+  {
+   "nome": "Ernesto Geisel",
+   "inicio": "1974-03-15",
+   "fim": "1979-03-15",
+   "chegada": "Eleição indireta pelo Colégio Eleitoral",
+   "partido": "ARENA",
+   "fase": "ditadura",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "Mário Henrique Simonsen",
+     "inicio": "1974-03-16",
+     "fim": "1979-03-15"
+    },
+    {
+     "nome": "João Paulo dos Reis Velloso (Planejamento)",
+     "inicio": "1969-10-30",
+     "fim": "1979-03-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Ernesto_Geisel",
+   "nomeCurto": "Geisel"
+  },
+  {
+   "nome": "João Figueiredo",
+   "inicio": "1979-03-15",
+   "fim": "1985-03-15",
+   "chegada": "Eleição indireta pelo Colégio Eleitoral",
+   "partido": "ARENA / PDS (a partir de 1980)",
+   "fase": "ditadura",
+   "subfase": null,
+   "ministros_fazenda": [
+    {
+     "nome": "Karlos Rischbieter",
+     "inicio": "1979-03-16",
+     "fim": "1980-01-17"
+    },
+    {
+     "nome": "Ernane Galvêas",
+     "inicio": "1980-01-18",
+     "fim": "1985-03-14"
+    },
+    {
+     "nome": "Mário Henrique Simonsen (Planejamento)",
+     "inicio": "1979-03-15",
+     "fim": "1979-08-10"
+    },
+    {
+     "nome": "Antônio Delfim Netto (Planejamento)",
+     "inicio": "1979-08-15",
+     "fim": "1985-03-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/João_Figueiredo",
+   "nomeCurto": "Figueiredo"
+  },
+  {
+   "nome": "José Sarney",
+   "inicio": "1985-03-15",
+   "fim": "1990-03-15",
+   "chegada": "Vice eleito indiretamente (Colégio Eleitoral, chapa de Tancredo Neves) que assumiu com a doença e morte de Tancredo",
+   "partido": "PMDB",
+   "fase": "nova_republica",
+   "subfase": "transicao",
+   "ministros_fazenda": [
+    {
+     "nome": "Francisco Dornelles",
+     "inicio": "1985-03-15",
+     "fim": "1985-08-26"
+    },
+    {
+     "nome": "Dilson Funaro",
+     "inicio": "1985-08-26",
+     "fim": "1987-04-29"
+    },
+    {
+     "nome": "Luiz Carlos Bresser-Pereira",
+     "inicio": "1987-04-29",
+     "fim": "1987-12-21"
+    },
+    {
+     "nome": "Maílson da Nóbrega",
+     "inicio": "1988-01-06",
+     "fim": "1990-03-15"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/José_Sarney",
+   "nomeCurto": "Sarney"
+  },
+  {
+   "nome": "Fernando Collor",
+   "inicio": "1990-03-15",
+   "fim": "1992-10-02",
+   "chegada": "Eleição direta (1989); afastado pelo processo de impeachment e renunciou em 29/12/1992",
+   "partido": "PRN",
+   "fase": "nova_republica",
+   "subfase": "transicao",
+   "ministros_fazenda": [
+    {
+     "nome": "Zélia Cardoso de Mello (Economia, Fazenda e Planejamento)",
+     "inicio": "1990-03-15",
+     "fim": "1991-05-10"
+    },
+    {
+     "nome": "Marcílio Marques Moreira (Economia, Fazenda e Planejamento)",
+     "inicio": "1991-05-10",
+     "fim": "1992-10-02"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Fernando_Collor_de_Mello",
+   "observacao": "Fim efetivo do exercício em 02/10/1992 (afastamento pelo Senado); renúncia formal em 29/12/1992.",
+   "nomeCurto": "Collor"
+  },
+  {
+   "nome": "Itamar Franco",
+   "inicio": "1992-10-02",
+   "fim": "1995-01-01",
+   "chegada": "Vice que assumiu interinamente com o afastamento de Collor (02/10/1992) e em definitivo após a renúncia (29/12/1992)",
+   "partido": "Sem partido",
+   "fase": "nova_republica",
+   "subfase": "transicao",
+   "ministros_fazenda": [
+    {
+     "nome": "Gustavo Krause",
+     "inicio": "1992-10-02",
+     "fim": "1992-12-16"
+    },
+    {
+     "nome": "Paulo Roberto Haddad",
+     "inicio": "1992-12-16",
+     "fim": "1993-03-01"
+    },
+    {
+     "nome": "Eliseu Resende",
+     "inicio": "1993-03-01",
+     "fim": "1993-05-19"
+    },
+    {
+     "nome": "Fernando Henrique Cardoso",
+     "inicio": "1993-05-19",
+     "fim": "1994-03-30"
+    },
+    {
+     "nome": "Rubens Ricupero",
+     "inicio": "1994-03-30",
+     "fim": "1994-09-06"
+    },
+    {
+     "nome": "Ciro Gomes",
+     "inicio": "1994-09-06",
+     "fim": "1995-01-01"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Itamar_Franco",
+   "nomeCurto": "Itamar"
+  },
+  {
+   "nome": "Fernando Henrique Cardoso",
+   "inicio": "1995-01-01",
+   "fim": "2003-01-01",
+   "chegada": "Eleição direta (1994) e reeleição (1998)",
+   "partido": "PSDB",
+   "fase": "nova_republica",
+   "subfase": "real_fhc",
+   "ministros_fazenda": [
+    {
+     "nome": "Pedro Malan",
+     "inicio": "1995-01-01",
+     "fim": "2003-01-01"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Fernando_Henrique_Cardoso",
+   "nomeCurto": "FHC"
+  },
+  {
+   "nome": "Luiz Inácio Lula da Silva",
+   "inicio": "2003-01-01",
+   "fim": "2011-01-01",
+   "chegada": "Eleição direta (2002) e reeleição (2006)",
+   "partido": "PT",
+   "fase": "nova_republica",
+   "subfase": "pt",
+   "ministros_fazenda": [
+    {
+     "nome": "Antonio Palocci",
+     "inicio": "2003-01-01",
+     "fim": "2006-03-27"
+    },
+    {
+     "nome": "Guido Mantega",
+     "inicio": "2006-03-27",
+     "fim": "2011-01-01"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Luiz_Inácio_Lula_da_Silva",
+   "nomeCurto": "Lula"
+  },
+  {
+   "nome": "Dilma Rousseff",
+   "inicio": "2011-01-01",
+   "fim": "2016-05-12",
+   "chegada": "Eleição direta (2010) e reeleição (2014); afastada pelo Senado em 12/05/2016 e destituída por impeachment em 31/08/2016",
+   "partido": "PT",
+   "fase": "nova_republica",
+   "subfase": "pt",
+   "ministros_fazenda": [
+    {
+     "nome": "Guido Mantega",
+     "inicio": "2011-01-01",
+     "fim": "2015-01-01"
+    },
+    {
+     "nome": "Joaquim Levy",
+     "inicio": "2015-01-01",
+     "fim": "2015-12-18"
+    },
+    {
+     "nome": "Nelson Barbosa",
+     "inicio": "2015-12-18",
+     "fim": "2016-05-12"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Dilma_Rousseff",
+   "observacao": "Fim efetivo do exercício em 12/05/2016 (afastamento); destituição definitiva em 31/08/2016.",
+   "nomeCurto": "Dilma"
+  },
+  {
+   "nome": "Michel Temer",
+   "inicio": "2016-05-12",
+   "fim": "2019-01-01",
+   "chegada": "Vice que assumiu interinamente com o afastamento de Dilma (12/05/2016) e em definitivo após o impeachment (31/08/2016)",
+   "partido": "PMDB/MDB",
+   "fase": "nova_republica",
+   "subfase": "temer_bolsonaro",
+   "ministros_fazenda": [
+    {
+     "nome": "Henrique Meirelles",
+     "inicio": "2016-05-12",
+     "fim": "2018-04-10"
+    },
+    {
+     "nome": "Eduardo Guardia",
+     "inicio": "2018-04-10",
+     "fim": "2019-01-01"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Michel_Temer",
+   "nomeCurto": "Temer"
+  },
+  {
+   "nome": "Jair Bolsonaro",
+   "inicio": "2019-01-01",
+   "fim": "2023-01-01",
+   "chegada": "Eleição direta (2018)",
+   "partido": "PSL (eleito), sem partido (2019–21), PL (a partir de 2021)",
+   "fase": "nova_republica",
+   "subfase": "temer_bolsonaro",
+   "ministros_fazenda": [
+    {
+     "nome": "Paulo Guedes (Economia)",
+     "inicio": "2019-01-01",
+     "fim": "2023-01-01"
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Jair_Bolsonaro",
+   "nomeCurto": "Bolsonaro"
+  },
+  {
+   "nome": "Luiz Inácio Lula da Silva",
+   "inicio": "2023-01-01",
+   "fim": null,
+   "chegada": "Eleição direta (2022); mandato até 2027-01-01 (em curso)",
+   "partido": "PT",
+   "fase": "nova_republica",
+   "subfase": "lula3",
+   "ministros_fazenda": [
+    {
+     "nome": "Fernando Haddad",
+     "inicio": "2023-01-01",
+     "fim": "2026-03-20"
+    },
+    {
+     "nome": "Dario Durigan",
+     "inicio": "2026-03-20",
+     "fim": null
+    }
+   ],
+   "fonte": "https://pt.wikipedia.org/wiki/Luiz_Inácio_Lula_da_Silva",
+   "observacao": "Haddad deixou a Fazenda para disputar as eleições de 2026; Lula anunciou Durigan em 19/03/2026 e o decreto saiu no DOU de 20/03/2026 (https://www.poder360.com.br/poder-governo/haddad-deixa-fazenda-e-e-substituido-por-durigan/).",
+   "nomeCurto": "Lula"
+  }
+ ]
+}
