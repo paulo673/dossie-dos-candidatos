@@ -1,0 +1,663 @@
+/* ================= Economia ================= */
+/* cores das fases (validadas p/ daltonismo sobre --bg-2; sempre acompanhadas de rótulo) */
+.pagina-eco {
+  --fase-velha: #c98500;
+  --fase-vargas: #199e70;
+  --fase-populista: #d95926;
+  --fase-ditadura: #9085e9;
+  --fase-nova: #d55181;
+}
+.eco-cab {
+  background:
+    radial-gradient(60% 140% at 0% 0%, rgba(201, 133, 0, 0.2), transparent 70%),
+    radial-gradient(50% 120% at 100% 0%, rgba(213, 81, 129, 0.2), transparent 70%);
+}
+.eco-sobretitulo {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--sol);
+  margin-bottom: 8px;
+}
+.eco-abas {
+  position: static;
+}
+
+/* faixa das fases */
+.eco-controles {
+  position: sticky;
+  top: var(--topo-h);
+  z-index: 30;
+  background: rgba(23, 19, 74, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--linha);
+  padding: 10px 0;
+}
+.eco-controles .container {
+  display: grid;
+  gap: 8px;
+}
+.faixa-fases {
+  display: flex;
+  gap: 3px;
+  min-width: 0;
+}
+.faixa-fase {
+  position: relative;
+  min-width: 0;
+  display: grid;
+  align-content: center;
+  gap: 1px;
+  padding: 7px 6px 6px;
+  border: 0;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--f) 22%, var(--bg-2));
+  box-shadow: inset 0 -4px 0 var(--f);
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  overflow: hidden;
+  min-height: 44px;
+}
+.faixa-fase:hover {
+  background: color-mix(in srgb, var(--f) 38%, var(--bg-2));
+}
+.faixa-fase.ativo {
+  background: var(--f);
+  color: #fff;
+  box-shadow: inset 0 0 0 2px var(--ink);
+}
+.faixa-nome {
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.faixa-anos {
+  font-size: 0.68rem;
+  color: var(--ink-2);
+  white-space: nowrap;
+  overflow: hidden;
+}
+.faixa-fase.ativo .faixa-anos {
+  color: #fff;
+}
+.eco-tudo {
+  justify-self: start;
+}
+@media (min-width: 700px) {
+  .faixa-nome {
+    font-size: 0.86rem;
+  }
+  .faixa-anos {
+    font-size: 0.74rem;
+  }
+}
+
+.eco-corpo {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 48px;
+}
+
+/* gráfico */
+.eco-grafico {
+  grid-template-columns: minmax(0, 1fr);
+}
+.eco-grafico > *,
+.eco-tempo > *,
+.eco-fases > *,
+.eco-dados > *,
+.eco-glossario > * {
+  min-width: 0;
+}
+.eco-ind-escolha {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+.eco-select {
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.92rem;
+  color: var(--ink);
+  background: var(--bg-3);
+  border: 1px solid var(--linha-forte);
+  border-radius: 10px;
+  padding: 8px 12px;
+  min-height: 40px;
+  max-width: 100%;
+}
+.eco-select optgroup,
+.eco-select option {
+  background: var(--bg-2);
+  color: var(--ink);
+}
+.eco-ind-rapidos {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  min-width: 0;
+  flex: 1 1 280px;
+}
+.eco-ind-rapidos::-webkit-scrollbar {
+  display: none;
+}
+.eco-ind-rapidos .chip {
+  flex-shrink: 0;
+}
+.eco-unid {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.geco {
+  position: relative;
+  min-width: 0;
+}
+.geco svg {
+  display: block;
+  touch-action: pan-y;
+  overflow: visible;
+  cursor: crosshair;
+}
+.geco svg:focus-visible {
+  outline: 3px solid var(--sol);
+  outline-offset: 4px;
+}
+.geco-fase {
+  fill: var(--f);
+  opacity: 0.08;
+}
+.geco-fase-topo {
+  fill: var(--f);
+}
+.geco-fase-rot {
+  fill: var(--ink-2);
+  font-size: 10.5px;
+  font-weight: 700;
+}
+.grade-zero {
+  stroke: var(--ink-3);
+}
+.geco-coluna {
+  fill: var(--ink);
+  opacity: 0.08;
+}
+.geco-sel {
+  stroke: var(--sol);
+  stroke-width: 1.5;
+  stroke-dasharray: 3 3;
+}
+.geco-barra {
+  fill: var(--f, var(--ink-2));
+}
+.geco-barra.estimado {
+  fill: color-mix(in srgb, var(--f, var(--ink-2)) 45%, transparent);
+}
+.geco-barra.ativo {
+  fill: var(--ink);
+}
+.geco-linha {
+  fill: none;
+  stroke: var(--c);
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.geco-ponto {
+  fill: var(--c);
+  stroke: var(--bg-2);
+  stroke-width: 1.5;
+}
+.geco-ponto.estimado {
+  fill: var(--bg-2);
+  stroke: var(--c);
+}
+.geco-ponto-ativo {
+  fill: var(--c);
+  stroke: var(--bg-2);
+  stroke-width: 2.5;
+}
+.legenda-traco-escuro {
+  background: var(--bg-3);
+  box-shadow: inset 0 0 0 1px var(--c);
+}
+.geco-dica-pres,
+.geco-dica-sem {
+  color: #4a4580;
+  line-height: 1.3;
+}
+.eco-grafico-rodape {
+  display: grid;
+  gap: 6px;
+}
+.eco-grafico-rodape .botao-link {
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.eco-nota {
+  font-size: 0.8rem;
+}
+.eco-dica-uso {
+  font-size: 0.82rem;
+}
+.eco-fonte {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: var(--ink-2);
+  text-decoration-color: var(--linha-forte);
+}
+.eco-fonte:hover {
+  color: var(--ink);
+}
+.eco-tabela {
+  max-height: 420px;
+  overflow-y: auto;
+}
+.eco-ano-cel {
+  border-left: 4px solid var(--f, transparent);
+}
+.eco-ano-cel small {
+  display: block;
+  font-weight: 500;
+}
+
+/* painel do ano */
+.painel-ano {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+  border-radius: var(--raio-l);
+  background: linear-gradient(120deg, color-mix(in srgb, var(--f) 20%, transparent), transparent 60%), var(--bg-2);
+  border: 1px solid color-mix(in srgb, var(--f) 50%, transparent);
+  scroll-margin-top: calc(var(--topo-h) + 80px);
+}
+.painel-ano-cab {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.painel-ano-cab h2 {
+  font-size: 2.6rem;
+  font-weight: 900;
+  font-variation-settings: 'wdth' 75;
+  line-height: 1;
+}
+.painel-ano-fase {
+  font-weight: 800;
+  color: var(--ink);
+}
+.painel-ano-pres {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+}
+.painel-ano-ind {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 8px;
+}
+.painel-ano-ind > div {
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: var(--bg-3);
+  display: grid;
+  gap: 2px;
+  align-content: start;
+}
+.painel-ano-ind dt .botao-link {
+  font-size: 0.78rem;
+  color: var(--ink-2);
+  text-align: left;
+}
+.painel-ano-ind dd {
+  margin: 0;
+  font-weight: 800;
+  font-size: 1.08rem;
+}
+.painel-ano-ind dd small {
+  font-weight: 500;
+  font-size: 0.72rem;
+  color: var(--ink-3);
+}
+.painel-ano-marcos {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 4px;
+  font-size: 0.9rem;
+}
+.painel-ano-marcos time {
+  color: var(--ink-3);
+  margin-right: 4px;
+}
+
+/* marcos */
+.eco-tempo {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+.eco-tempo-cab {
+  display: grid;
+  gap: 10px;
+}
+.eco-filtros {
+  display: grid;
+  gap: 10px;
+}
+.eco-filtros .busca {
+  max-width: 420px;
+}
+@media (min-width: 900px) {
+  .eco-filtros .tempo-cats {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+}
+.fase-bloco {
+  margin-top: 18px;
+}
+.fase-bloco-cab {
+  position: sticky;
+  top: calc(var(--topo-h) + var(--controles-h, 70px));
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 12px;
+  margin: 0 calc(var(--gutter) * -1) 12px;
+  padding: 12px var(--gutter) 10px;
+  background: var(--bg);
+  box-shadow:
+    inset 0 -3px 0 var(--f),
+    0 1px 0 var(--linha);
+  font-size: clamp(1.25rem, 3.6vw, 1.6rem);
+  font-variation-settings: 'wdth' 110;
+}
+.fase-bloco-anos {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: var(--f);
+  filter: brightness(1.35);
+}
+.resumo-fase {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 16px;
+  max-width: 80ch;
+}
+.resumo-fase-st {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.resumo-fase-st > div {
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: var(--bg-2);
+  border: 1px solid var(--linha);
+  border-top: 3px solid var(--f);
+  min-width: 128px;
+}
+.resumo-fase-st dt {
+  font-size: 0.74rem;
+  color: var(--ink-3);
+  font-weight: 600;
+}
+.resumo-fase-st dd {
+  margin: 0;
+  font-weight: 800;
+  font-size: 1rem;
+}
+.eco-itens {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 22px;
+  display: grid;
+  gap: 10px;
+  position: relative;
+}
+.eco-itens::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: color-mix(in srgb, var(--f) 55%, transparent);
+}
+.marco-eco {
+  position: relative;
+  min-width: 0;
+  scroll-margin-top: calc(var(--topo-h) + var(--controles-h, 70px) + 60px);
+  --c: var(--f);
+}
+.marco-eco article {
+  display: grid;
+  gap: 6px;
+  padding: 12px 14px;
+  border-radius: var(--raio);
+  background: var(--bg-2);
+  border: 1px solid var(--linha);
+  border-left: 4px solid var(--f);
+}
+.marco-fonte {
+  font-size: 0.78rem;
+}
+.posse {
+  position: relative;
+  padding: 4px 0;
+}
+.posse-no {
+  position: absolute;
+  left: -24px;
+  top: 8px;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  background: var(--bg);
+  border: 3px solid var(--f);
+}
+.posse-data {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--ink-3);
+}
+.posse-nome {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-weight: 800;
+  font-size: 1rem;
+}
+.posse-chegada {
+  font-size: 0.82rem;
+}
+.vazio-fase {
+  padding: 8px 0 16px;
+}
+
+/* fases e governos */
+.eco-fases {
+  display: grid;
+  gap: 28px;
+}
+.fases-cards {
+  display: grid;
+  gap: 14px;
+}
+@media (min-width: 900px) {
+  .fases-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .fase-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+  }
+}
+.fase-card {
+  display: grid;
+  gap: 12px;
+  align-content: start;
+  padding: 20px;
+  border-radius: var(--raio-l);
+  background: linear-gradient(160deg, color-mix(in srgb, var(--f) 18%, transparent), transparent 50%), var(--bg-2);
+  border: 1px solid var(--linha);
+  border-top: 5px solid var(--f);
+}
+.fase-card header {
+  display: grid;
+  gap: 6px;
+}
+.fase-card-anos {
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: var(--ink-2);
+}
+.fase-tags {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.fase-tags li {
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--f) 30%, transparent);
+}
+.fase-card .resumo-fase {
+  margin: 0;
+}
+.fase-subs {
+  font-size: 0.84rem;
+}
+.fase-subs th small {
+  display: block;
+  font-weight: 500;
+}
+.fase-card .botao-link {
+  justify-self: start;
+}
+.eco-governos {
+  display: grid;
+  gap: 14px;
+}
+.eco-governos-cab {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+}
+.eco-governos-cab > div {
+  display: grid;
+  gap: 6px;
+  max-width: 70ch;
+}
+.eco-tab-gov th small {
+  display: block;
+  font-weight: 500;
+}
+.eco-ministros {
+  font-size: 0.8rem;
+  min-width: 220px;
+}
+
+/* glossário */
+.eco-glossario {
+  display: grid;
+  gap: 18px;
+}
+.eco-glossario-filtros {
+  display: grid;
+  gap: 10px;
+}
+@media (min-width: 900px) {
+  .eco-glossario-filtros .tempo-cats {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+}
+.glossario-lista {
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+@media (min-width: 900px) {
+  .glossario-lista {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.glossario-item {
+  padding: 14px 16px;
+  border-radius: var(--raio);
+  background: var(--bg-2);
+  border: 1px solid var(--linha);
+  scroll-margin-top: calc(var(--topo-h) + 20px);
+}
+.glossario-item:target {
+  border-color: var(--sol);
+}
+.glossario-item dt {
+  font-weight: 800;
+  font-size: 1.04rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  margin-bottom: 4px;
+}
+.glossario-grupo {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--ink-3);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.glossario-item dd {
+  margin: 0;
+  color: var(--ink-2);
+  font-size: 0.93rem;
+}
+.glossario-ver {
+  color: var(--ink-3);
+  font-size: 0.86rem;
+}
+
+/* dados */
+.eco-dados {
+  display: grid;
+  gap: 20px;
+}
+.eco-dados .caixa {
+  display: grid;
+  gap: 10px;
+}
+.eco-tab-series th small,
+.eco-tab-series td small {
+  display: block;
+  font-weight: 400;
+  max-width: 60ch;
+}
+.fase-subs td {
+  white-space: nowrap;
+}
