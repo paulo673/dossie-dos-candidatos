@@ -1,5 +1,5 @@
 import { useDiasAte } from '../lib/useDiasAte.js'
-import { Home, History, BookOpen, User } from 'lucide-react'
+import { Home, History, BookOpen, User, LineChart } from 'lucide-react'
 import { DATA_SEGUNDO_TURNO, DATA_REFERENCIA } from '../data/eleicao.js'
 import { candidatos } from '../data/index.js'
 
@@ -10,6 +10,7 @@ const LINKS = [
   { href: 'lula', rotulo: 'Lula', icone: User, rota: 'lula', classe: 'c-lula' },
   { href: 'flavio', rotulo: 'Flávio', icone: User, rota: 'flavio', classe: 'c-flavio' },
   { href: 'linha-do-tempo', rotulo: 'Linha do tempo', curto: 'Linha', icone: History, rota: 'linha-do-tempo' },
+  { href: 'economia', rotulo: 'Economia', curto: 'Economia', icone: LineChart, rota: 'economia' },
   { href: 'fontes', rotulo: 'Fontes e método', curto: 'Fontes', icone: BookOpen, rota: 'fontes' },
 ]
 

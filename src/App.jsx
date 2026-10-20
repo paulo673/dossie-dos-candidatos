@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { lazy, Suspense, useEffect } from 'react'
 import { useRota } from './lib/router.js'
 import { Topo, NavInferior, Rodape } from './components/Layout.jsx'
 import Home from './pages/Home.jsx'
@@ -6,6 +6,9 @@ import Candidato from './pages/Candidato.jsx'
 import LinhaDoTempo from './pages/LinhaDoTempo.jsx'
 import FontesMetodo from './pages/FontesMetodo.jsx'
 import { candidatos } from './data/index.js'
+
+// a página de economia tem ~200 kB de séries: carrega só quando visitada
+const Economia = lazy(() => import('./pages/Economia.jsx'))
 
 export default function App() {
   const { partes, query } = useRota()
@@ -17,6 +20,13 @@ export default function App() {
     rotaAtual = p0
   } else if (p0 === 'linha-do-tempo') {
     pagina = <LinhaDoTempo query={query} />
+    rotaAtual = p0
+  } else if (p0 === 'economia') {
+    pagina = (
+      <Suspense fallback={<p className="container carregando">Carregando…</p>}>
+        <Economia aba={p1} query={query} />
+      </Suspense>
+    )
     rotaAtual = p0
   } else if (p0 === 'fontes') {
     pagina = <FontesMetodo />

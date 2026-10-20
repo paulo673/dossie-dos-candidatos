@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './styles/global.css'
 import './styles/componentes.css'
 import './styles/paginas.css'
+import './styles/economia.css'
 import App from './App.jsx'
 import { iniciarAnalytics } from './lib/analytics.js'
 
